@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Curve</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Crete+Round&family=Libre+Baskerville&family=M+PLUS+Rounded+1c:wght@400;500&family=Nunito:wght@300&family=Source+Serif+Pro&family=Varela+Round&family=Work+Sans&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="websitename">
+            <div class="hamburger">
+                <img class="menu" src="Images_icons/Hamburger icon/menu.jpg" alt="">
+                <img class="Exit" src="Images_icons/Hamburger icon/Exit.png" alt="">
+            </div>
+            <div class="logoimg">
+                <img src="Images_icons/logo/learning path.jpg" alt="Learning image">
+            </div>
+
+            <div class="sitename">
+                <p id="l1">Learning</p>
+                <p id="l2">Curve</p>
+            </div>
+        </div>
+
+        <div class="navcon">
+            <p>Menu</p>
+            <img src="Images_icons/Dropdown menu icons/down-arrow.png" alt="">
+        </div>
+
+        <nav class="navMove nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="searchbar">
+                <input id="searchbar" onkeyup="search_content()" type="text" name="search" placeholder="Search..">
+                <div class="searchicon">
+                    <img src="Images_icons/Search icon/search.png" alt="">
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Left Navigation Bar -->
+    <div class="sidebar sidebarMove">
+        <p>CONTENTS</p>
+        <ul>
+            <li><a href="#proglan">Programming Language</a></li>
+            <li><a href="#webdev">Web Development</a></li>
+            <!-- <li><a href="#">Lorem, ipsum.</a></li>
+            <li><a href="#">Lorem, ipsum.</a></li> -->
+        </ul>
+    </div>
+
+
+    <!-- Main content of the body -->
+    <main>
+
+        <!-- <div id="mainbody" class="mainimage">
+            <img src="Images/logo/learn.jpg" alt="" width="100%" height="100%">
+            <p>Hello World! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quidem labore incidunt, odio aperiam suscipit veniam corrupti ratione nihil officia eveniet totam.</p>
+        </div> -->
+
+        <!-- Programming Languages -->
+        <div class="programlang">
+
+            <!-- Heading -->
+            <div id="proglan" class="heading">
+                <h1>PROGRAMING LANGUAGE</h1>
+            </div>
+
+            <!-- C Language -->
+            <div class="content">
+
+                <h3>C Language</h3>
+                <div class="flexbody">
+                    <div class="image">
+                        <img src="Images_icons/content Images/Programming language/C language.png" alt="C lang">
+                    </div>
+
+                    <div class="table">
+                        <div class="documentation">
+                            <p>Documentation</p>
+                            <a href="https://www.geeksforgeeks.org/c-programming-language/" class="btn1"
+                                target="_blank">Geeks for Geeks</a>
+                            <a href="https://www.w3schools.in/c-tutorial/" class="btn2" target="_blank">w3schools</a>
+                            <a href="https://www.tutorialspoint.com/cprogramming/" class="btn3" target="_blank">tutorialspoint</a>
+                        </div>
+
+                        <div class="video">
+                            <p>Video</p>
+                            <a href="https://youtu.be/KJgsSFOSQv0" class="btn1" target="_blank">English</a>
+                            <a href="https://youtu.be/ZSPZob_1TOk" class="btn2" target="_blank">Hindi</a>
+                            <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
+                        </div>
+
+                        <div class="courses">
+                            <p>Courses</p>
+                            <a href="https://www.codecademy.com/learn/learn-c-plus-plus" class="btn1" target="_blank">Codecademy</a>
+                            <a href="https://www.udemy.com/course/c-programming-guide-for-beginners/" class="btn2" target="_blank">Udemy</a>
+                            <a href="https://www.programiz.com/c-programming" class="btn3" target="_blank">Programiz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- C++ Language -->
+            <div class="content">
+
+                <h3>C++ Language</h3>
+                <div class="flexbody">
+                    <div class="image">
+                        <img src="Images_icons/content Images/Programming language/C++ language.png" alt="C++ lang">
+                    </div>
+
+                    <div class="table">
+                        <div class="documentation">
+                            <p>Documentation</p>
+                            <a href="https://www.geeksforgeeks.org/c-plus-plus/" class="btn1" target="_blank">Geeks for Geeks</a>
+                            <a href="https://www.w3schools.com/CPP/default.asp" class="btn2" target="_blank">w3schools</a>
+                            <a href="https://www.javatpoint.com/cpp-tutorial" class="btn3" target="_blank">javatpoint</a>
+                        </div>
+
+                        <div class="video">
+                            <p>Video</p>
+                            <a href="https://youtu.be/vLnPwxZdW4Y" class="btn1" target="_blank">English</a>
+                            <a href="https://youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL" class="btn2" target="_blank">Hindi</a>
+                            <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
+                        </div>
+
+                        <div class="courses">
+                            <p>Courses</p>
+                            <a href="https://www.udemy.com/course/video-course-c-from-beginner-to-expert/" class="btn1" target="_blank">Udemy</a>
+                            <a href="https://www.udacity.com/course/c-for-programmers--ud210" class="btn2" target="_blank">Udacity</a>
+                            <a href="https://www.programiz.com/cpp-programming" class="btn3" target="_blank">Programiz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Python Language -->
+            <div class="content">
+
+                <h3>Python Language</h3>
+                <div class="flexbody">
+                    <div class="image">
+                        <img src="Images_icons/content Images/Programming language/Python language.png" alt="python lang">
+                    </div>
+
+                    <div class="table">
+                        <div class="documentation">
+                            <p>Documentation</p>
+                            <a href="https://www.geeksforgeeks.org/python-programming-language/" class="btn1" target="_blank">Geeks for Geeks</a>
+                            <a href="https://www.w3schools.com/python/default.asp" class="btn2" target="_blank">w3schools</a>
+                            <a href="https://www.tutorialspoint.com/python/index.htm" class="btn3" target="_blank">tutorialspoint</a>
+                        </div>
+
+                        <div class="video">
+                            <p>Video</p>
+                            <a href="https://youtu.be/_uQrJ0TkZlc" class="btn1" target="_blank">English</a>
+                            <a href="https://youtu.be/gfDE2a7MKjA" class="btn2" target="_blank">Hindi</a>
+                            <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
+                        </div>
+
+                        <div class="courses">
+                            <p>Courses</p>
+                            <a href="https://www.programiz.com/python-programming" class="btn1" target="_blank">Programiz</a>
+                            <a href="https://www.udemy.com/course/python-complete/" class="btn2" target="_blank">Udemy</a>
+                            <a href="https://www.udacity.com/course/introduction-to-python--ud1110" class="btn3" target="_blank">Udacity</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Java Language -->
+            <div class="content">
+
+                <h3>Java Language</h3>
+                <div class="flexbody">
+                    <div class="image">
+                        <img src="Images_icons/content Images/Programming language/java.jpg" alt="java lang">
+                    </div>
+
+                    <div class="table">
+                        <div class="documentation">
+                            <p>Documentation</p>
+                            <a href="https://www.geeksforgeeks.org/java/" class="btn1" target="_blank">Geeks for Geeks</a>
+                            <a href="https://www.w3schools.com/java/java_intro.asp" class="btn2" target="_blank">w3schools</a>
+                            <a href="https://www.javatpoint.com/java-tutorial" class="btn3" target="_blank">javatpoint</a>
+                        </div>
+
+                        <div class="video">
+                            <p>Video</p>
+                            <a href="https://youtu.be/eIrMbAQSU34" class="btn1" target="_blank">English</a>
+                            <a href="https://youtu.be/rV_3Lewxx6o" class="btn2" target="_blank">Hindi</a>
+                            <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
+                        </div>
+
+                        <div class="courses">
+                            <p>Courses</p>
+                            <a href="https://www.codecademy.com/learn/learn-java" class="btn1" target="_blank">Codecademy</a>
+                            <a href="https://www.programiz.com/java-programming" class="btn2" target="_blank">Programiz</a>
+                            <a href="https://www.udemy.com/course/learn-java-programming-from-beginner-to-pro-2020/" class="btn3" target="_blank">Udemy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Web Development -->
+        <div class="webdevelop">
+
+            <!-- Heading -->
+            <div id="webdev" class="heading">
+                <h1>WEB DEVELOPMENT</h1>
+            </div>
+
+            
+            <div class="content">
+                
+                <!-- HTML -->
+
+                <div class="divisions">
+                    <p>Frontend Development</p>
+                </div>
+                
+                <h3>HTML</h3>
+                <div class="flexbody">
+                    <div class="image">
+                        <img src="Images_icons/content Images/Web development/HTML.png" alt="html">
+                    </div>
+
+                    <div class="table">
+                        <div class="documentation">
+                            <p>Documentation</p>
+                            <a href="" class="btn1" target="_blank">Geeks for Geeks</a>
+                            <a href="" class="btn2" target="_blank">w3schools</a>
+                            <a href="" class="btn3" target="_blank">tutorialspoint</a>
+                        </div>
+
+                        <div class="video">
+                            <p>Video</p>
+                            <a href="" class="btn1" target="_blank">English</a>
+                            <a href="" class="btn2" target="_blank">Hindi</a>
+                            <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
+                        </div>
+
+                        <div class="courses">
+                            <p>Courses</p>
+                            <a href="" class="btn1" target="_blank">Codecademy</a>
+                            <a href="" class="btn2" target="_blank">Udemy</a>
+                            <a href="" class="btn3" target="_blank">Programiz</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CSS -->
+
+                <h3>CSS</h3>
+                <div class="flexbody">
+                    <div class="image">
+                        <img src="Images_icons/content Images/Web development/CSS.png" alt="CSS">
+                    </div>
+
+                    <div class="table">
+                        <div class="documentation">
+                            <p>Documentation</p>
+                            <a href="" class="btn1" target="_blank">Geeks for Geeks</a>
+                            <a href="" class="btn2" target="_blank">w3schools</a>
+                            <a href="" class="btn3" target="_blank">tutorialspoint</a>
+                        </div>
+
+                        <div class="video">
+                            <p>Video</p>
+                            <a href="" class="btn1" target="_blank">English</a>
+                            <a href="" class="btn2" target="_blank">Hindi</a>
+                            <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
+                        </div>
+
+                        <div class="courses">
+                            <p>Courses</p>
+                            <a href="" class="btn1" target="_blank">Codecademy</a>
+                            <a href="" class="btn2" target="_blank">Udemy</a>
+                            <a href="" class="btn3" target="_blank">Programiz</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Javascript -->
+
+                <h3>Javascript</h3>
+                <div class="flexbody">
+                    <div class="image">
+                        <img src="Images_icons/content Images/Web development/Javascript.png" alt="Javascript">
+                    </div>
+
+                    <div class="table">
+                        <div class="documentation">
+                            <p>Documentation</p>
+                            <a href="" class="btn1" target="_blank">Geeks for Geeks</a>
+                            <a href="" class="btn2" target="_blank">w3schools</a>
+                            <a href="" class="btn3" target="_blank">tutorialspoint</a>
+                        </div>
+
+                        <div class="video">
+                            <p>Video</p>
+                            <a href="" class="btn1" target="_blank">English</a>
+                            <a href="" class="btn2" target="_blank">Hindi</a>
+                            <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
+                        </div>
+
+                        <div class="courses">
+                            <p>Courses</p>
+                            <a href="" class="btn1" target="_blank">Codecademy</a>
+                            <a href="" class="btn2" target="_blank">Udemy</a>
+                            <a href="" class="btn3" target="_blank">Programiz</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Framework and libraries -->
+
+                <div class="divisions">
+                    <p>Framework</p>
+                </div>
+
+                <h3>React Js</h3>
+                <div class="flexbody">
+                    <div class="image">
+                        <img src="Images_icons/content Images/Web development/ReactJs.png" alt="React Js">
+                    </div>
+
+                    <div class="table">
+                        <div class="documentation">
+                            <p>Documentation</p>
+                            <a href="" class="btn1" target="_blank">Geeks for Geeks</a>
+                            <a href="" class="btn2" target="_blank">w3schools</a>
+                            <a href="" class="btn3" target="_blank">tutorialspoint</a>
+                        </div>
+
+                        <div class="video">
+                            <p>Video</p>
+                            <a href="" class="btn1" target="_blank">English</a>
+                            <a href="" class="btn2" target="_blank">Hindi</a>
+                            <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
+                        </div>
+
+                        <div class="courses">
+                            <p>Courses</p>
+                            <a href="" class="btn1" target="_blank">Codecademy</a>
+                            <a href="" class="btn2" target="_blank">Udemy</a>
+                            <a href="" class="btn3" target="_blank">Programiz</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Development -->
+
+                <div class="divisions">
+                    <p>Backend Development</p>
+                </div>
+
+                <h3>Node Js</h3>
+                <div class="flexbody">
+                    <div class="image">
+                        <img src="Images_icons/content Images/Web development/NodeJs.png" alt="Node Js">
+                    </div>
+
+                    <div class="table">
+                        <div class="documentation">
+                            <p>Documentation</p>
+                            <a href="" class="btn1" target="_blank">Geeks for Geeks</a>
+                            <a href="" class="btn2" target="_blank">w3schools</a>
+                            <a href="" class="btn3" target="_blank">tutorialspoint</a>
+                        </div>
+
+                        <div class="video">
+                            <p>Video</p>
+                            <a href="" class="btn1" target="_blank">English</a>
+                            <a href="" class="btn2" target="_blank">Hindi</a>
+                            <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
+                        </div>
+
+                        <div class="courses">
+                            <p>Courses</p>
+                            <a href="" class="btn1" target="_blank">Codecademy</a>
+                            <a href="" class="btn2" target="_blank">Udemy</a>
+                            <a href="" class="btn3" target="_blank">Programiz</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database -->
+
+                <div class="divisions">
+                    <p>Database</p>
+                </div>
+
+                <h3>mongo DB</h3>
+                <div class="flexbody">
+                    <div class="image">
+                        <img src="Images_icons/content Images/Web development/mongoDB.png" alt="mongo DB">
+                    </div>
+
+                    <div class="table">
+                        <div class="documentation">
+                            <p>Documentation</p>
+                            <a href="" class="btn1" target="_blank">Geeks for Geeks</a>
+                            <a href="" class="btn2" target="_blank">w3schools</a>
+                            <a href="" class="btn3" target="_blank">tutorialspoint</a>
+                        </div>
+
+                        <div class="video">
+                            <p>Video</p>
+                            <a href="" class="btn1" target="_blank">English</a>
+                            <a href="" class="btn2" target="_blank">Hindi</a>
+                            <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
+                        </div>
+
+                        <div class="courses">
+                            <p>Courses</p>
+                            <a href="" class="btn1" target="_blank">Codecademy</a>
+                            <a href="" class="btn2" target="_blank">Udemy</a>
+                            <a href="" class="btn3" target="_blank">Programiz</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+                
+        </div>
+        
+
+
+        <!-- About US -->
+        <!-- <div class="about">
+            <div class="content aboutheading">
+                <p>ABOUT</p>
+            </div>
+        </div> -->
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <h5>&copy; Copyright | All Rights Reserved</h5>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
