@@ -12,11 +12,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Crete+Round&family=Libre+Baskerville&family=M+PLUS+Rounded+1c:wght@400;500&family=Nunito:wght@300&family=Source+Serif+Pro&family=Varela+Round&family=Work+Sans&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Crete+Round&family=Libre+Baskerville&family=M+PLUS+Rounded+1c:wght@400;500&family=Nunito:wght@300&family=Source+Serif+Pro&family=Varela+Round&family=Work+Sans&family=Roboto+Slab:wght@500&family=Work+Sans&family=Neonderthaw&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -45,11 +41,11 @@
         <nav class="navMove nav">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#mycontact">Contact</a></li>
             </ul>
             <div class="searchbar">
-                <input id="searchbar" onkeyup="search_content()" type="text" name="search" placeholder="Search..">
+                <input type="search" value="" id="search" onkeyup="search_content()" placeholder="Search...">
                 <div class="searchicon">
                     <img src="Images_icons/Search icon/search.png" alt="">
                 </div>
@@ -64,8 +60,6 @@
         <ul>
             <li><a href="#proglan">Programming Language</a></li>
             <li><a href="#webdev">Web Development</a></li>
-            <!-- <li><a href="#">Lorem, ipsum.</a></li>
-            <li><a href="#">Lorem, ipsum.</a></li> -->
         </ul>
     </div>
 
@@ -73,21 +67,16 @@
     <!-- Main content of the body -->
     <main>
 
-        <!-- <div id="mainbody" class="mainimage">
-            <img src="Images/logo/learn.jpg" alt="" width="100%" height="100%">
-            <p>Hello World! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quidem labore incidunt, odio aperiam suscipit veniam corrupti ratione nihil officia eveniet totam.</p>
-        </div> -->
-
         <!-- Programming Languages -->
         <div class="programlang">
 
             <!-- Heading -->
             <div id="proglan" class="heading">
-                <h1>PROGRAMING LANGUAGE</h1>
+                <h1>PROGRAMMING LANGUAGE</h1>
             </div>
 
             <!-- C Language -->
-            <div class="content">
+            <div class="content" id="clang">
 
                 <h3>C Language</h3>
                 <div class="flexbody">
@@ -122,7 +111,7 @@
             </div>
 
             <!-- C++ Language -->
-            <div class="content">
+            <div class="content" id="cpplang">
 
                 <h3>C++ Language</h3>
                 <div class="flexbody">
@@ -156,7 +145,7 @@
             </div>
 
             <!-- Python Language -->
-            <div class="content">
+            <div class="content" id="pythonlang">
 
                 <h3>Python Language</h3>
                 <div class="flexbody">
@@ -190,7 +179,7 @@
             </div>
 
             <!-- Java Language -->
-            <div class="content">
+            <div class="content" id="javalang">
 
                 <h3>Java Language</h3>
                 <div class="flexbody">
@@ -239,11 +228,11 @@
                 
                 <!-- HTML -->
 
-                <div class="divisions">
+                <div class="divisions" id="frontenddev">
                     <p>Frontend Development</p>
                 </div>
                 
-                <h3>HTML</h3>
+                <h3 id="html">HTML</h3>
                 <div class="flexbody">
                     <div class="image">
                         <img src="Images_icons/content Images/Web development/HTML.png" alt="html">
@@ -252,30 +241,30 @@
                     <div class="table">
                         <div class="documentation">
                             <p>Documentation</p>
-                            <a href="" class="btn1" target="_blank">Geeks for Geeks</a>
-                            <a href="" class="btn2" target="_blank">w3schools</a>
-                            <a href="" class="btn3" target="_blank">tutorialspoint</a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="btn1" target="_blank">MDN Web Docs</a>
+                            <a href="https://www.w3schools.com/html/" class="btn2" target="_blank">w3schools</a>
+                            <a href="https://www.geeksforgeeks.org/html-course-structure-of-an-html-document/" class="btn3" target="_blank">Geeks for Geeks</a>
                         </div>
 
                         <div class="video">
                             <p>Video</p>
-                            <a href="" class="btn1" target="_blank">English</a>
-                            <a href="" class="btn2" target="_blank">Hindi</a>
+                            <a href="https://youtu.be/pQN-pnXPaVg" class="btn1" target="_blank">English</a>
+                            <a href="https://youtu.be/BsDoLVMnmZs" class="btn2" target="_blank">Hindi</a>
                             <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
                         </div>
 
                         <div class="courses">
                             <p>Courses</p>
-                            <a href="" class="btn1" target="_blank">Codecademy</a>
-                            <a href="" class="btn2" target="_blank">Udemy</a>
-                            <a href="" class="btn3" target="_blank">Programiz</a>
+                            <a href="https://www.codecademy.com/learn/learn-html" class="btn1" target="_blank">Codecademy</a>
+                            <a href="https://www.edx.org/course/html5-coding-essentials-and-best-practices" class="btn2" target="_blank">Edx</a>
+                            <a href="https://www.udacity.com/course/intro-to-html-and-css--ud001" class="btn3" target="_blank">Udacity</a>
                         </div>
                     </div>
                 </div>
 
                 <!-- CSS -->
 
-                <h3>CSS</h3>
+                <h3 id="css">CSS</h3>
                 <div class="flexbody">
                     <div class="image">
                         <img src="Images_icons/content Images/Web development/CSS.png" alt="CSS">
@@ -284,30 +273,30 @@
                     <div class="table">
                         <div class="documentation">
                             <p>Documentation</p>
-                            <a href="" class="btn1" target="_blank">Geeks for Geeks</a>
-                            <a href="" class="btn2" target="_blank">w3schools</a>
-                            <a href="" class="btn3" target="_blank">tutorialspoint</a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class="btn1" target="_blank">MDN Web Docs</a>
+                            <a href="https://devdocs.io/css/" class="btn2" target="_blank">DevDocs</a>
+                            <a href="https://www.w3schools.com/css/" class="btn3" target="_blank">w3schools</a>
                         </div>
 
                         <div class="video">
                             <p>Video</p>
-                            <a href="" class="btn1" target="_blank">English</a>
-                            <a href="" class="btn2" target="_blank">Hindi</a>
+                            <a href="https://youtu.be/1Rs2ND1ryYc" class="btn1" target="_blank">English</a>
+                            <a href="https://youtu.be/Edsxf_NBFrw" class="btn2" target="_blank">Hindi</a>
                             <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
                         </div>
 
                         <div class="courses">
                             <p>Courses</p>
-                            <a href="" class="btn1" target="_blank">Codecademy</a>
-                            <a href="" class="btn2" target="_blank">Udemy</a>
-                            <a href="" class="btn3" target="_blank">Programiz</a>
+                            <a href="https://www.codecademy.com/learn/learn-css" class="btn1" target="_blank">Codecademy</a>
+                            <a href="https://www.udemy.com/course/the-complete-css-course-u/" class="btn2" target="_blank">Udemy</a>
+                            <a href="https://www.edx.org/course/css-basics" class="btn3" target="_blank">Edx</a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Javascript -->
 
-                <h3>Javascript</h3>
+                <h3 id="javascript">Javascript</h3>
                 <div class="flexbody">
                     <div class="image">
                         <img src="Images_icons/content Images/Web development/Javascript.png" alt="Javascript">
@@ -316,34 +305,34 @@
                     <div class="table">
                         <div class="documentation">
                             <p>Documentation</p>
-                            <a href="" class="btn1" target="_blank">Geeks for Geeks</a>
-                            <a href="" class="btn2" target="_blank">w3schools</a>
-                            <a href="" class="btn3" target="_blank">tutorialspoint</a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="btn1" target="_blank">MDN Web Docs</a>
+                            <a href="https://www.w3schools.com/js/" class="btn2" target="_blank">w3schools</a>
+                            <a href="https://www.tutorialspoint.com/javascript/index.htm" class="btn3" target="_blank">tutorialspoint</a>
                         </div>
 
                         <div class="video">
                             <p>Video</p>
-                            <a href="" class="btn1" target="_blank">English</a>
-                            <a href="" class="btn2" target="_blank">Hindi</a>
+                            <a href="https://youtu.be/PkZNo7MFNFg" class="btn1" target="_blank">English</a>
+                            <a href="https://youtu.be/hKB-YGF14SY" class="btn2" target="_blank">Hindi</a>
                             <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
                         </div>
 
                         <div class="courses">
                             <p>Courses</p>
-                            <a href="" class="btn1" target="_blank">Codecademy</a>
-                            <a href="" class="btn2" target="_blank">Udemy</a>
-                            <a href="" class="btn3" target="_blank">Programiz</a>
+                            <a href="https://www.codecademy.com/learn/introduction-to-javascript" class="btn1" target="_blank">Codecademy</a>
+                            <a href="https://www.udacity.com/course/intro-to-javascript--ud803" class="btn2" target="_blank">Udacity</a>
+                            <a href="https://www.programiz.com/javascript" class="btn3" target="_blank">Programiz</a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Framework and libraries -->
 
-                <div class="divisions">
+                <div class="divisions" id="framework">
                     <p>Framework</p>
                 </div>
 
-                <h3>React Js</h3>
+                <h3 id="reactjs">React Js</h3>
                 <div class="flexbody">
                     <div class="image">
                         <img src="Images_icons/content Images/Web development/ReactJs.png" alt="React Js">
@@ -352,34 +341,34 @@
                     <div class="table">
                         <div class="documentation">
                             <p>Documentation</p>
-                            <a href="" class="btn1" target="_blank">Geeks for Geeks</a>
-                            <a href="" class="btn2" target="_blank">w3schools</a>
-                            <a href="" class="btn3" target="_blank">tutorialspoint</a>
+                            <a href="https://reactjs.org/" class="btn1" target="_blank">React</a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started" class="btn2" target="_blank">MDN</a>
+                            <a href="https://www.w3schools.com/REACT/DEFAULT.ASP" class="btn3" target="_blank">w3schools</a>
                         </div>
 
                         <div class="video">
                             <p>Video</p>
-                            <a href="" class="btn1" target="_blank">English</a>
-                            <a href="" class="btn2" target="_blank">Hindi</a>
+                            <a href="https://youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3" class="btn1" target="_blank">English</a>
+                            <a href="https://youtu.be/gY5sGvq-8h8" class="btn2" target="_blank">Hindi</a>
                             <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
                         </div>
 
                         <div class="courses">
                             <p>Courses</p>
-                            <a href="" class="btn1" target="_blank">Codecademy</a>
-                            <a href="" class="btn2" target="_blank">Udemy</a>
-                            <a href="" class="btn3" target="_blank">Programiz</a>
+                            <a href="https://www.codecademy.com/learn/react-101" class="btn1" target="_blank">Codecademy</a>
+                            <a href="https://www.udemy.com/course/react-redux/" class="btn2" target="_blank">Udemy</a>
+                            <a href="https://www.coursera.org/specializations/full-stack-react" class="btn3" target="_blank">Coursera</a>
                         </div>
                     </div>
                 </div>
                 
                 <!-- Backend Development -->
 
-                <div class="divisions">
+                <div class="divisions" id="backenddev">
                     <p>Backend Development</p>
                 </div>
 
-                <h3>Node Js</h3>
+                <h3 id="nodejs">Node Js</h3>
                 <div class="flexbody">
                     <div class="image">
                         <img src="Images_icons/content Images/Web development/NodeJs.png" alt="Node Js">
@@ -388,34 +377,34 @@
                     <div class="table">
                         <div class="documentation">
                             <p>Documentation</p>
-                            <a href="" class="btn1" target="_blank">Geeks for Geeks</a>
-                            <a href="" class="btn2" target="_blank">w3schools</a>
-                            <a href="" class="btn3" target="_blank">tutorialspoint</a>
+                            <a href="https://nodejs.org/en/docs/" class="btn1" target="_blank">NodeJs</a>
+                            <a href="https://www.w3schools.com/nodejs/" class="btn2" target="_blank">w3schools</a>
+                            <a href="https://www.tutorialspoint.com/nodejs/index.htm" class="btn3" target="_blank">tutorialspoint</a>
                         </div>
 
                         <div class="video">
                             <p>Video</p>
-                            <a href="" class="btn1" target="_blank">English</a>
-                            <a href="" class="btn2" target="_blank">Hindi</a>
+                            <a href="https://youtu.be/Oe421EPjeBE" class="btn1" target="_blank">English</a>
+                            <a href="https://youtu.be/BLl32FvcdVM" class="btn2" target="_blank">Hindi</a>
                             <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
                         </div>
 
                         <div class="courses">
                             <p>Courses</p>
-                            <a href="" class="btn1" target="_blank">Codecademy</a>
-                            <a href="" class="btn2" target="_blank">Udemy</a>
-                            <a href="" class="btn3" target="_blank">Programiz</a>
+                            <a href="https://www.codecademy.com/learn/learn-node-js" class="btn1" target="_blank">Codecademy</a>
+                            <a href="https://www.udemy.com/course/the-complete-nodejs-express-with-nodejs-for-beginners/" class="btn2" target="_blank">Udemy</a>
+                            <a href="https://pluralsight.pxf.io/c/1193463/424552/7490?u=https%3A%2F%2Fwww.pluralsight.com%2Fcourses%2Fnode-intro" class="btn3" target="_blank">Pluralsight</a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Database -->
 
-                <div class="divisions">
+                <div class="divisions" id="database">
                     <p>Database</p>
                 </div>
 
-                <h3>mongo DB</h3>
+                <h3 id="mongodb">mongo DB</h3>
                 <div class="flexbody">
                     <div class="image">
                         <img src="Images_icons/content Images/Web development/mongoDB.png" alt="mongo DB">
@@ -424,23 +413,23 @@
                     <div class="table">
                         <div class="documentation">
                             <p>Documentation</p>
-                            <a href="" class="btn1" target="_blank">Geeks for Geeks</a>
-                            <a href="" class="btn2" target="_blank">w3schools</a>
-                            <a href="" class="btn3" target="_blank">tutorialspoint</a>
+                            <a href="https://www.mongodb.com/docs/" class="btn1" target="_blank">mongo DB</a>
+                            <a href="https://www.w3schools.in/mongodb/tutorials/" class="btn2" target="_blank">w3schools</a>
+                            <a href="https://www.tutorialspoint.com/mongodb/index.htm" class="btn3" target="_blank">tutorialspoint</a>
                         </div>
 
                         <div class="video">
                             <p>Video</p>
-                            <a href="" class="btn1" target="_blank">English</a>
-                            <a href="" class="btn2" target="_blank">Hindi</a>
+                            <a href="https://youtube.com/playlist?list=PLp50dWW_m40UWFSV6PTgYzciZJIxgHy7Q" class="btn1" target="_blank">English</a>
+                            <a href="https://youtu.be/oSIv-E60NiUs" class="btn2" target="_blank">Hindi</a>
                             <!-- <a href="" class="btn3" target="_blank">Click here</a> -->
                         </div>
 
                         <div class="courses">
                             <p>Courses</p>
-                            <a href="" class="btn1" target="_blank">Codecademy</a>
-                            <a href="" class="btn2" target="_blank">Udemy</a>
-                            <a href="" class="btn3" target="_blank">Programiz</a>
+                            <a href="https://www.udemy.com/course/mongodb-essentials/" class="btn1" target="_blank">Udemy</a>
+                            <a href="https://www.coursera.org/learn/introduction-mongodb" class="btn2" target="_blank">Coursera</a>
+                            <a href="https://www.pluralsight.com/courses/mongodb-introduction" class="btn3" target="_blank">Pluralsight</a>
                         </div>
                     </div>
                 </div>
@@ -448,21 +437,18 @@
             </div>
                 
         </div>
-        
-
-
-        <!-- About US -->
-        <!-- <div class="about">
-            <div class="content aboutheading">
-                <p>ABOUT</p>
-            </div>
-        </div> -->
 
     </main>
 
 
     <!-- Footer -->
     <footer>
+        <p>Contact</p>
+        <div class="contact" id="mycontact">
+            <a href="https://www.linkedin.com/in/akash-rathod-6588491b4/" target="_blank"><img src="Images_icons/Contact icons/linkedin.png" alt="linkedin"></a>
+            <a href="https://github.com/AkashRathod01" target="_blank"><img src="Images_icons/Contact icons/github.png" alt="Github"></a>
+            <a href="https://www.instagram.com/sky_rathod_001/" target="_blank"><img src="Images_icons/Contact icons/instagram.png" alt="Instagram" style="margin-right: 0;"></a>
+        </div>
         <h5>&copy; Copyright | All Rights Reserved</h5>
     </footer>
 

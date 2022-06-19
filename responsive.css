@@ -80,6 +80,7 @@
         /* display: none; */
         /* transform: translate(0, 0); */
         transition: transform 0.3s ease-in;
+        z-index: 1;
     }
     .sidebarMove{
         transform: translate(-280px, 0);
@@ -107,8 +108,9 @@
         width: 100%;
         height: 180px;
         top: 74px;
-        background-color: rgb(25 53 84);
+        background-color: rgb(0 30 64);
         z-index: -1;
+        border-top: 2px solid rgb(4 28 55);
         /* display: none; */
         /* display: flex;
         justify-content: center;
@@ -190,7 +192,7 @@
         width: 470px;
     }
     footer{
-        z-index: -1;
+        z-index: 0;
     }
 }
 
@@ -326,6 +328,12 @@
         border-bottom: 6px solid black;
     }
 
+    .sitename {
+        font-size: 26px;
+        display: grid;
+        align-content: center;
+    }
+
     .table {
         width: 310px;
     }
@@ -353,6 +361,14 @@
 
     .flexbody img{
         width: 100px;
+    }
+
+    footer{
+        font-size: 20px;
+    }
+
+    footer p{
+        font-size: 22px;
     }
 }
 

@@ -7,20 +7,75 @@ document.querySelector('.navcon').addEventListener("click", ()=>{
     document.querySelector('.nav').classList.toggle('navMove');
 });
 
-// JavaScript code
-function search_content() {
-	let input = document.getElementById('searchbar').value
+function search_content(){
+	let input = document.getElementById('search').value;
 	input=input.toLowerCase();
-	let x = document.getElementsByClassName('animals');
-	
-	for (i = 0; i < x.length; i++) {
-		if (!x[i].innerHTML.toLowerCase().includes(input)) {
-			x[i].style.display="none";
-		}
-		else {
-			x[i].style.display="list-item";				
-		}
+
+	if (input == "programming") {
+		document.querySelector('#proglan').scrollIntoView();
+		console.log(input);
 	}
+	if (input == "c") {
+		document.querySelector('#clang').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "c++") {
+		document.querySelector('#cpplang').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "python") {
+		document.querySelector('#pythonlang').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "java") {
+		document.querySelector('#javalang').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "web development") {
+		document.querySelector('#webdev').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "frontend") {
+		document.querySelector('#frontenddev').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "html") {
+		document.querySelector('#html').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "css") {
+		document.querySelector('#css').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "javascript") {
+		document.querySelector('#javascript').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "framework") {
+		document.querySelector('#framework').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "react") {
+		document.querySelector('#reactjs').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "backend") {
+		document.querySelector('#backenddev').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "node") {
+		document.querySelector('#nodejs').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "database") {
+		document.querySelector('#database').scrollIntoView();
+		console.log(input);
+	}
+	if (input == "mongo") {
+		document.querySelector('#mongodb').scrollIntoView();
+		console.log(input);
+	}
+		
 }
 
 
