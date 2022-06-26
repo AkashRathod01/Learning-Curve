@@ -145,13 +145,13 @@ header img{
     border-radius: 50%;
 }
 
-header nav{
+.nav{
     height: 100%;
     display: flex;
     align-content: center;
 }
 
-header nav ul{
+.nav ul{
     list-style-type: none;
     padding-right: 20px;
     display: flex;
@@ -159,11 +159,11 @@ header nav ul{
     justify-content: right;
 }
 
-header nav ul li{
+.nav ul li{
     display: inline;
 }
 
-header nav ul li a{
+.nav ul li a{
     font-size: 22px;
     font-weight: bold;
     color: white;
@@ -172,7 +172,7 @@ header nav ul li a{
     transition: .1s;
 }
 
-header nav ul li a:hover{
+.nav ul li a:hover{
     color: rgb(109, 211, 252);
 }
 
